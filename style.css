@@ -66,3 +66,43 @@ body{
 }
 
 /* CSS DE SOBRE MI */
+.sobre-mi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sobre-mi__titulo{
+    color: #fdfdfd;
+    font-family: 'Raleway', sans-serif;
+}
+.sobre-mi__parrafo{
+    color: #fdfdfd;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* CSS SKILLS */
+.skills, .hobbies-seccion{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.skills__titulo, .hobbies-seccion__titulo{
+    font-family: 'Raleway', sans-serif;
+    color: #fdfdfd;
+    text-align: center;
+
+}
+.skills__tecnologias, .hobbies-seccion__hobbies{
+    display: flex;
+    justify-content: space-between;
+}
+.skills__icono, .hobbies-seccion__iconos{
+    color: #fdfdfd;
+    background: red;
+   
+}
+
+.fa, .fab, .fa-brands, .fa-solid{
+    color: #fdfdfd;
+   font-size: 3rem;
+}

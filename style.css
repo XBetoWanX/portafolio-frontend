@@ -98,6 +98,17 @@ body{
     justify-content: space-between;
     margin-top: 4rem;
 }
+
+.skills__container, .formacion-academica__container, .hobbies-seccion__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills__descripcion, .formacion-academica__descripcion, .hobbies-seccion__descripcion{
+    font-family: 'Raleway', sans-serif;  
+    color: #fdfdfd;
+}
 .skills__icono, .hobbies-seccion__iconos{
     color: #fdfdfd;
     background: red;
@@ -122,14 +133,4 @@ body{
     border-radius: 10px;
     box-sizing: border-box;
     padding: 1em;
-}
-.formacion-academica__container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.formacion-academica__parrafo{
-    font-family: 'Raleway', sans-serif;  
-    color: #fdfdfd;
 }

@@ -112,9 +112,24 @@ body{
 /* CSS FORMACION ACADEMICA */
 .formacion-academica__informacion{
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-around;
+    align-items: baseline;
 }
 .formacion-academica__imagen{
-    width: 10%;
+    width: 8em;
+    height: 9em;
+    background: #fdfdfd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1em;
+}
+.formacion-academica__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formacion-academica__parrafo{
+    font-family: 'Raleway', sans-serif;  
+    color: #fdfdfd;
 }

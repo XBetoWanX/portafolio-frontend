@@ -65,6 +65,12 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+
+.fa-github:hover, .fa-linkedin:hover, .redes-sociales__link:hover{
+    color: gray;
+}
+
+
 /* CSS DE SOBRE MI */
 .sobre-mi{
     display: flex;
@@ -82,12 +88,12 @@ body{
 }
 
 /* CSS SKILLS Y HOBBIES*/
-.skills, .hobbies-seccion, .formacion-academica{
+.skills, .hobbies-seccion, .formacion-academica, .experiencia-profesional{
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 7em;
 }
-.skills__titulo, .hobbies-seccion__titulo, .formacion-academica__titulo{
+.skills__titulo, .hobbies-seccion__titulo, .formacion-academica__titulo, .experiencia-profesional__titulo, .experiencia-profesional__titulo-proyecto, .contacto__titulo{
     font-family: 'Raleway', sans-serif;
     color: #fdfdfd;
     text-align: center;
@@ -103,12 +109,18 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 10%;
+    /*padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px; */
 }
 
-.skills__descripcion, .formacion-academica__descripcion, .hobbies-seccion__descripcion{
+.skills__descripcion, .formacion-academica__descripcion, .hobbies-seccion__descripcion, .experiencia-profesional__descripcion{
     font-family: 'Raleway', sans-serif;  
     color: #fdfdfd;
+    text-align: center;
 }
+
 .skills__icono, .hobbies-seccion__iconos{
     color: #fdfdfd;
     background: red;
@@ -133,4 +145,67 @@ body{
     border-radius: 10px;
     box-sizing: border-box;
     padding: 1em;
+}
+
+/* CSS EXPERIENCIA PROFESIONAL*/
+.experiencia-profesional__proyecto{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7em;
+}
+.experiencia-profesional__container--izquierda{
+    order: -1;
+}
+
+.experiencia-profesional__imagen{
+    width: 70%;
+}
+
+.experiencia-profesional__link{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;  
+}
+
+/* CSS CONTACTO */
+.contacto{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contacto__info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2em;
+}
+.contacto__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.contacto__descripcion{
+    font-family: 'Raleway', sans-serif;  
+    color: #fdfdfd;
+}
+
+.contacto__imagen{
+    width: 50%;
+}
+
+.contacto__input{
+    height: 3em;
+    font-family: 'Raleway', sans-serif;
+    background: black;
+    color: #fdfdfd;
+    resize: none;
+}
+
+.contacto__titulo{
+    margin-top: 0;
+    margin-bottom: -58px;
+}
+.contacto__button{
+    width: 10em;
+    height: 3em;
+    align-self: center;
 }

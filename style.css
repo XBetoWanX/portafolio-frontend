@@ -1,11 +1,14 @@
 body{
     background: #23283e;
+    margin: 0;
+    padding: 0;
 }
 /* CSS DEL HEADER */
 .encabezado__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 1em;
 }
 .encabezado__menu{
     font-family: 'Raleway', sans-serif;
@@ -59,6 +62,7 @@ body{
     display: flex;
     width: 80%;
     justify-content: space-around;
+    align-items: center;
 }
 
 .redes-sociales__link{
@@ -88,10 +92,8 @@ body{
 }
 
 /* CSS SKILLS Y HOBBIES*/
-.skills, .hobbies-seccion, .formacion-academica, .experiencia-profesional{
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 7em;
+.skills, .hobbies-seccion, .formacion-academica{
+    margin: 0 25% 7em 25%;
 }
 .skills__titulo, .hobbies-seccion__titulo, .formacion-academica__titulo, .experiencia-profesional__titulo, .experiencia-profesional__titulo-proyecto, .contacto__titulo{
     font-family: 'Raleway', sans-serif;
@@ -148,6 +150,9 @@ body{
 }
 
 /* CSS EXPERIENCIA PROFESIONAL*/
+.experiencia-profesional{
+    margin: 0 20% 7em 20%;
+}
 .experiencia-profesional__proyecto{
     display: flex;
     justify-content: space-between;
@@ -156,7 +161,12 @@ body{
 .experiencia-profesional__container--izquierda{
     order: -1;
 }
-
+.experiencia-profesional__boton--rojo{
+    background: red;
+    width: 8em;
+    height: 3em;
+    border: none;
+}
 .experiencia-profesional__imagen{
     width: 70%;
 }
@@ -164,12 +174,18 @@ body{
 .experiencia-profesional__link{
     text-decoration: none;
     font-family: 'Raleway', sans-serif;  
+    color: #fdfdfd;
 }
-
+.experiencia-profesional__boton--border{
+    background: #23283e;
+    border: 1px solid red;
+    width: 8em;
+    height: 3em;
+    margin-right: 0.6em;
+}
 /* CSS CONTACTO */
 .contacto{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 10% 7em 10%;
 }
 .contacto__info{
     display: flex;
@@ -199,13 +215,42 @@ body{
     color: #fdfdfd;
     resize: none;
 }
+.contacto__input--big{
+    font-family: 'Raleway', sans-serif;
+    height: 12em;
+    background: black;
+    color: #fdfdfd;
+    resize: none;
+}
 
 .contacto__titulo{
     margin-top: 0;
-    margin-bottom: -58px;
+    margin-bottom: -34px;
 }
 .contacto__button{
     width: 10em;
     height: 3em;
-    align-self: center;
+    background: red;
+    color: #fdfdfd;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    /* align-self: center; */
+}
+
+/* CSS FOOTER */
+.footer-seccion{
+    width: 100%;
+    background: #fdfdfd;
+}
+.footer-seccion__container{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
+}
+
+
+.github, .linkedin{
+    color: black;
+    font-size: 2em;
 }

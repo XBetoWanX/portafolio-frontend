@@ -190,10 +190,10 @@
                 <h2 class="contacto__titulo">Contacto</h2>
                 <p class="contacto__descripcion">¿Quieres contactarme?
                     Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-                <textarea class="contacto__input"  placeholder="Nombre" required></textarea>
-                <textarea class="contacto__input"  placeholder="E-mail" required></textarea>
-                <textarea class="contacto__input"  placeholder="Asunto" required></textarea>
-                <textarea class="contacto__input--big"  placeholder="Mensaje" required></textarea>
+                <input class="contacto__input"  placeholder="Nombre" required minlength="2" pattern="[a-zA-Z]+"></input>
+                <input class="contacto__input"  type="email" placeholder="E-mail" required></input>
+                <input class="contacto__input"  placeholder="Asunto" required minlength="4"></input>
+                <input class="contacto__input--big"  placeholder="Mensaje" required minlength="10"></input>
                 <button class="contacto__button" type="submit">Enviar mensaje</button>
             </form>
         </div>

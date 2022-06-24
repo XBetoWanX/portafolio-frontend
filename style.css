@@ -121,6 +121,7 @@ body{
     font-family: 'Raleway', sans-serif;  
     color: #fdfdfd;
     text-align: center;
+    font-size: 1em;
 }
 
 .skills__icono, .hobbies-seccion__iconos{
@@ -175,6 +176,10 @@ body{
     text-decoration: none;
     font-family: 'Raleway', sans-serif;  
     color: #fdfdfd;
+}
+.experiencia__profesional__btns{
+    display: flex;
+    justify-content: center;
 }
 .experiencia-profesional__boton--border{
     background: #23283e;

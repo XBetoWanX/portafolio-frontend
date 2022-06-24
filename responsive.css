@@ -1,0 +1,80 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .presentacion__parrafo1{
+        font-size: 1.7em;
+        line-height: 1.2em;
+    }
+    .presentacion__parrafo2{
+        font-size: 0.7em;
+    }
+    .sobre-mi__parrafo {
+        font-size: 0.7em;
+    }
+    .fa-html5, .fa-css3, .fa-js, .fa-sass, .fa-less, .fa-git-alt, .fa-solid{
+       font-size: 5rem;
+    }
+    .skills, .hobbies-seccion, .formacion-academica{
+        margin: 0 10% 7em 10%;
+    }
+    .skills__descripcion, .formacion-academica__descripcion, .hobbies-seccion__descripcion, .experiencia-profesional__descripcion{
+        font-size: 1em;
+    }
+    .skills__container, .formacion-academica__container, .hobbies-seccion__container {
+        width: 30%;
+    }
+    .experiencia-profesional, .skills, .hobbies-seccion, .formacion-academica {
+        margin: 0 5% 4em 5%;
+    }
+    .skills__tecnologias, .hobbies-seccion__hobbies {
+        flex-wrap: wrap;
+    }
+    .encabezado__menu{
+        display: none;
+    }
+    .experiencia-profesional__proyecto {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2em;
+        flex-direction: column;
+    }
+    .experiencia-profesional__imagen{
+        width: 100%;
+    }
+    .experiencia-profesional__container--izquierda{
+        order: 0;
+    }
+    .contacto__info{
+        flex-direction: column;
+    }
+    .contacto__titulo{
+        margin-bottom: -3px;
+    }
+    .contacto__imagen {
+        width: 100%;
+        height: 20em;
+    }
+    .formacion-academica__informacion {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacto{
+        margin: 0 10% 2em 10%;
+    }
+    .contacto__container {
+        gap: 1em;
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -232,6 +232,20 @@ html{
     resize: none;
 }
 
+.contacto__confirmacion--container{
+    display: flex;
+    background: #70c770;
+    height: 51px;
+    justify-content: space-around;
+}
+
+.contacto__confirmacion{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    align-self: center;
+    text-align: center;
+}
+
 .contacto__titulo{
     margin-top: 0;
     margin-bottom: -34px;
@@ -257,7 +271,9 @@ html{
     gap: 2em;
     align-items: center;
 }
-
+#disabled{
+    visibility: hidden;
+}
 
 .github, .linkedin{
     color: black;

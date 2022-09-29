@@ -194,11 +194,15 @@
                 <h2 class="contacto__titulo">Contacto</h2>
                 <p class="contacto__descripcion">¿Quieres contactarme?
                     Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-                <input class="contacto__input"  placeholder="Nombre" required minlength="2" pattern="[a-zA-Z]+"></input>
-                <input class="contacto__input"  type="email" placeholder="E-mail" required></input>
-                <input class="contacto__input"  placeholder="Asunto" required minlength="4"></input>
-                <input class="contacto__input--big"  placeholder="Mensaje" required minlength="10"></input>
-                <button class="contacto__button" type="submit">Enviar mensaje</button>
+                <div class="contacto__confirmacion--container" id="disabled">
+                    <span class="contacto__confirmacion">Gracias por escribirme, lo contactaré tan pronto como me sea posible</span>
+                </div>
+                
+                <input class="contacto__input" id="nombre" type="input" placeholder="Nombre" required minlength="2"></input>
+                <input class="contacto__input"  id= "email" type="email" placeholder="E-mail" required></input>
+                <input class="contacto__input"  id="asunto" type="input" placeholder="Asunto" required minlength="5"></input>
+                <input class="contacto__input--big"  id="mensaje" type="input" placeholder="Mensaje" required minlength="8"></input>
+                <button class="contacto__button" id="enviar" type="submit">Enviar mensaje</button>
             </form>
         </div>
     </section>
@@ -211,6 +215,7 @@
     </footer>
     
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
